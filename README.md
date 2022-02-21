@@ -10,11 +10,15 @@ check if the source code compressed and uploaded to the server by mistake
 # Install 
 
 git clone https://github.com/smackerdodi/source-founder.git
+
 cd source-founder 
+
 pip3 install -r requirements.txt
 
 # Usage 
 
-python3 source-founder.py sub.txt output.txt 
+python3 source-founder.py sub.txt output.txt
+
 sub.txt : File contain subdomains begin with http or https 
+
 output.txt : File contain the output of the tool 
